@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bojongsantos Project - Ecoenzym</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eco-dark': '#064e3b',
+                        'eco-primary': '#059669',
+                        'eco-accent': '#10b981',
+                        'eco-light': '#ecfdf5',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .hero-enzym { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Top Navigation -->
+    <nav class="absolute top-0 w-full z-50 px-6 py-6 md:px-12">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="text-white font-bold text-xl tracking-tight">Bojongsantos Project</div>
+            <div class="hidden md:flex items-center space-x-8 text-white text-xs font-bold uppercase tracking-widest">
+                <a href="index.html" class="hover:text-eco-accent transition-colors">Beranda</a>
+                <a href="ecobrick.html" class="hover:text-eco-accent transition-colors">Ecobrick</a>
+                <a href="ecoenzym.html" class="hover:text-eco-accent border-b-2 border-eco-accent pb-1 transition-colors">Ecoenzym</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-enzym h-[80vh] flex items-center justify-center text-center px-6 relative">
+        <div class="max-w-4xl pt-20">
+            <div class="inline-block bg-[#ffffe0]/20 backdrop-blur-md text-white text-xs font-bold px-6 py-2 rounded-full mb-8 border border-white/30 uppercase">
+                Solusi Sampah Organik
+            </div>
+            <h1 class="text-4xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                Cara Membuat Eco-Enzyme
+            </h1>
+            <p class="text-white/80 text-sm md:text-xl font-medium mb-10 max-w-2xl mx-auto leading-relaxed">
+                Mengubah sampah dapur menjadi cairan yang bermanfaat untuk lingkungan.
+            </p>
+        </div>
+    </header>
+
+    <!-- Masalah Sampah Section -->
+    <section class="py-24 px-6 max-w-7xl mx-auto text-center">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Masalah Sampah Organik</h2>
+        <p class="text-gray-400 font-medium mb-16">Berbagai tantangan lingkungan yang dihadapi masyarakat desa</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+            <div class="bg-[#eef2f1] p-10 rounded-3xl">
+                <div class="w-12 h-12 bg-eco-dark rounded-xl mb-8"></div>
+                <h3 class="font-bold text-lg mb-2">Sungai Kotor</h3>
+                <p class="text-gray-500 text-sm">Limbah organik mencemari air sungai</p>
+            </div>
+            <div class="bg-[#eef2f1] p-10 rounded-3xl">
+                <div class="w-12 h-12 bg-eco-dark rounded-xl mb-8"></div>
+                <h3 class="font-bold text-lg mb-2">Air Tercemar</h3>
+                <p class="text-gray-500 text-sm">Kualitas air menurun akibat sampah organik</p>
+            </div>
+            <div class="bg-[#eef2f1] p-10 rounded-3xl">
+                <div class="w-12 h-12 bg-eco-dark rounded-xl mb-8"></div>
+                <h3 class="font-bold text-lg mb-2">Bau Tidak Sedap</h3>
+                <p class="text-gray-500 text-sm">Sampah organik menimbulkan bau busuk</p>
+            </div>
+            <div class="bg-[#eef2f1] p-10 rounded-3xl">
+                <div class="w-12 h-12 bg-eco-dark rounded-xl mb-8"></div>
+                <h3 class="font-bold text-lg mb-2">Sampah Menumpuk</h3>
+                <p class="text-gray-500 text-sm">Limbah dapur terus bertambah setiap hari</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apa itu Section -->
+    <section class="py-24 px-6 bg-eco-light/30">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6">Apa Itu Eco-Enzyme?</h2>
+            <p class="text-gray-500 text-base md:text-xl leading-relaxed mb-10">
+                Eco-enzyme adalah cairan hasil fermentasi kulit buah dan sayur yang dapat membantu membersihkan lingkungan. Proses pembuatannya sederhana dan bisa dilakukan oleh siapa saja di rumah.
+            </p>
+            <ul class="space-y-4 mb-16">
+                <li class="flex items-center space-x-4 text-gray-900 font-bold"><i class="far fa-circle-check text-eco-primary text-xl"></i><span>Terbuat dari bahan alami</span></li>
+                <li class="flex items-center space-x-4 text-gray-900 font-bold"><i class="far fa-circle-check text-eco-primary text-xl"></i><span>Mudah dibuat di rumah</span></li>
+                <li class="flex items-center space-x-4 text-gray-900 font-bold"><i class="far fa-circle-check text-eco-primary text-xl"></i><span>Ramah lingkungan dan ekonomis</span></li>
+                <li class="flex items-center space-x-4 text-gray-900 font-bold"><i class="far fa-circle-check text-eco-primary text-xl"></i><span>Membantu mengurangi pencemaran air</span></li>
+            </ul>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-center font-bold text-sm">100% Alami</div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-center font-bold text-sm">Ramah Lingkungan</div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-center font-bold text-sm">Mudah Dibuat</div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-center font-bold text-sm">Hemat Biaya</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Langkah Section -->
+    <section class="py-24 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center mb-4">Langkah Pembuatan Eco-Enzyme</h2>
+        <p class="text-gray-400 font-medium text-center mb-16">Ikuti 5 langkah mudah ini untuk membuat eco-enzyme sendiri</p>
+        
+        <div class="space-y-4">
+            <div class="flex items-center space-x-6 p-8 bg-[#eefaf4] rounded-3xl">
+                <div class="w-16 h-16 bg-eco-dark text-white rounded-2xl flex items-center justify-center text-2xl font-black">1</div>
+                <div>
+                    <h4 class="font-black text-xl mb-1">Siapkan Kulit Buah dan Sayur</h4>
+                    <p class="text-gray-500 text-sm">Kumpulkan kulit buah dan sayur dari dapur. Pastikan dalam kondisi segar dan bersih.</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-6 p-8 bg-[#eefaf4] rounded-3xl">
+                <div class="w-16 h-16 bg-eco-dark text-white rounded-2xl flex items-center justify-center text-2xl font-black">2</div>
+                <div>
+                    <h4 class="font-black text-xl mb-1">Campur Gula dan Air</h4>
+                    <p class="text-gray-500 text-sm">Campurkan gula merah atau gula aren dengan air bersih. Perbandingan: 1 gula : 10 air.</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-6 p-8 bg-[#eefaf4] rounded-3xl">
+                <div class="w-16 h-16 bg-eco-dark text-white rounded-2xl flex items-center justify-center text-2xl font-black">3</div>
+                <div>
+                    <h4 class="font-black text-xl mb-1">Masukkan ke Wadah Tertutup</h4>
+                    <p class="text-gray-500 text-sm">Masukkan campuran bahan ke dalam wadah plastik yang tertutup rapat. Sisakan ruang 20% untuk gas fermentasi.</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-6 p-8 bg-[#eefaf4] rounded-3xl">
+                <div class="w-16 h-16 bg-eco-dark text-white rounded-2xl flex items-center justify-center text-2xl font-black">4</div>
+                <div>
+                    <h4 class="font-black text-xl mb-1">Fermentasi Beberapa Minggu</h4>
+                    <p class="text-gray-500 text-sm">Diamkan selama minimal 3 bulan. Buka tutup setiap minggu untuk mengeluarkan gas.</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-6 p-8 bg-[#eefaf4] rounded-3xl">
+                <div class="w-16 h-16 bg-eco-dark text-white rounded-2xl flex items-center justify-center text-2xl font-black">5</div>
+                <div>
+                    <h4 class="font-black text-xl mb-1">Gunakan Cairannya</h4>
+                    <p class="text-gray-500 text-sm">Setelah 3 bulan, saring dan gunakan cairan eco-enzyme untuk membersihkan air atau keperluan lain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 bg-eco-dark border-t border-white/5 text-center text-white/40 text-[10px] font-bold uppercase tracking-widest">
+        @2026 Bojongsantos Project, All Rights Reserved<br>S1 Sistem Informasi Telkom University
+    </footer>
+
+</body>
+</html>
